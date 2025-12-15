@@ -7,7 +7,9 @@ O sistema foi projetado utilizando arquitetura de microsserviços, comunicação
 A aplicação permite que múltiplos usuários se cadastrem, façam login e troquem mensagens em tempo real, mesmo quando conectados a diferentes instâncias do serviço de chat.
 
 
-Relatório: https://docs.google.com/document/d/1awn8AK5Bzyo-CRX81Gng2MsWLUlukKniMZOUWTBZBg4/edit?usp=sharing
+Relatório: 
+Link google docs: https://docs.google.com/document/d/1awn8AK5Bzyo-CRX81Gng2MsWLUlukKniMZOUWTBZBg4/edit?usp=sharing
+Link pdf: https://github.com/leticiaasoares/sd-chat/blob/main/Relatorio_TP_Final_LeticiaSoares_MateusGoncalves.pdf
 
 
 ### Iniciar o Redis
