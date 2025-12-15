@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chat Distribuído</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="login-view">
+    <h2>Login</h2>
+    <input type="text" id="login-username" placeholder="Usuário" />
+    <input type="password" id="login-password" placeholder="Senha" />
+    <button id="btn-login">Entrar</button>
+
+    <h3>Ou cadastre-se</h3>
+    <input type="text" id="register-username" placeholder="Novo usuário" />
+    <input type="password" id="register-password" placeholder="Senha" />
+    <button id="btn-register">Cadastrar</button>
+
+    <p id="login-error" class="error"></p>
+  </div>
+
+  <div id="chat-view" style="display: none;">
+    <div class="sidebar">
+      <h3>Usuário: <span id="current-user"></span></h3>
+      <h4>Usuários online</h4>
+      <ul id="users-online"></ul>
+      <h4>Todos os usuários</h4>
+      <ul id="users-all"></ul>
+    </div>
+
+    <div class="chat-main">
+      <div id="chat-header">
+        Conversando com: <span id="chat-with"></span>
+      </div>
+      <div id="messages"></div>
+      <div id="message-input-area">
+        <input type="text" id="message-input" placeholder="Digite sua mensagem..." />
+        <button id="btn-send">Enviar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
