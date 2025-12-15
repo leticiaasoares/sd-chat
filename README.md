@@ -63,9 +63,9 @@ Exemplo com **três instâncias**:
 cd chat-service
 npm install
 
-PORT=4001 REDIS_URL=redis://localhost:6379 node server.js
-PORT=4002 REDIS_URL=redis://localhost:6379 node server.js
-PORT=4003 REDIS_URL=redis://localhost:6379 node server.js
+PORT=4001 npm start
+PORT=4002 node server.js 
+PORT=4003 node server.js 
 ```
 
 
