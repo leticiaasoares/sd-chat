@@ -11,7 +11,6 @@ A aplicação permite que múltiplos usuários se cadastrem, façam login e troq
 
 Link google docs: https://docs.google.com/document/d/1awn8AK5Bzyo-CRX81Gng2MsWLUlukKniMZOUWTBZBg4/edit?usp=sharing
 
-Link pdf: https://github.com/leticiaasoares/sd-chat/blob/main/Relatorio_TP_Final_LeticiaSoares_MateusGoncalves.pdf
 
 
 ### Iniciar o Redis
